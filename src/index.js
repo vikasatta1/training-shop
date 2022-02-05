@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WebFont from "webfontloader";
 
+WebFont.load({
+    google: {
+        families: ['Poppins', "Spartan:500","Inter:400"]
+    }
+});
 ReactDOM.render(
   <React.StrictMode>
     <App />
