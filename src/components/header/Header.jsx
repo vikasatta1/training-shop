@@ -23,6 +23,7 @@ import { ReactComponent as CartSvg } from '../../assets/svg/shopping-bag_2.svg';
 
 function Header() {
     return (
+        <div className='header' data-test-id='header'>
         <HeaderStyle>
             <TopBarStyle>
                 <TopBarContainerStyle>
@@ -94,6 +95,7 @@ function Header() {
                 </BottomInnerContainerStyle>
             </BottomBarContainerStyle>
         </HeaderStyle>
+        </div>
     );
 }
 
