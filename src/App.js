@@ -1,14 +1,10 @@
 import './App.scss';
 import Header from "./components/header/Header";
-
-function App() {
+export const App = () => {
     return (
         <div className='app' data-test-id='app'>
-            <Header/>
-
+            <Header />
 
         </div>
     );
-}
-
-export default App;
+};
