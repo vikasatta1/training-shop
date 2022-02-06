@@ -1,6 +1,6 @@
-import iconPhone from '../../src/image/SVG/header/phone.svg';
-import iconLocationMarker from '../../src/image/SVG/header/location-marker.svg';
-import iconClock from '../../src/image/SVG/header/clock.svg';
+import iconPhone from '../components/header/contacts/assets/phone.svg';
+import iconLocationMarker from '../components/header/contacts/assets/location-marker.svg';
+import iconClock from '../components/header/contacts/assets/clock.svg';
 
 export const CONTACTS = [
   {

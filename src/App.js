@@ -1,10 +1,13 @@
 import './App.scss';
-import Header from "./components/header/Header";
+import MainPage from "./pages/main-page/main-page";
+import Header from "./components/header/header";
+
+
 export const App = () => {
     return (
         <div className='app' data-test-id='app'>
-            <Header />
-
+            <Header/>
+            <MainPage/>
         </div>
     );
 };

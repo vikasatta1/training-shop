@@ -1,0 +1,13 @@
+.advantage-item {
+  display: flex;
+
+  .advantage-item-img {
+    padding-right: 8px;
+  }
+
+  .advantage-item-description {
+    .title {
+      font-weight: 600;
+    }
+  }
+}
