@@ -4,7 +4,7 @@ import Header from "./components/header/heade";
 import Footer from "./components/footer/footer";
 import {Routes,Route} from "react-router-dom";
 
-
+import './App.scss'
 export const App = () => {
     return (
         <div className='app' data-test-id='app'>
