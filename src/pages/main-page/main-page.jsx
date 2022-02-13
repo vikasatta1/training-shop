@@ -17,9 +17,9 @@ const MainPage = () => {
                 <News/>
             </div>
             <Subscribe/>
-          {/*  <div className='wrapper'>
+            <div className='wrapper'>
                 <MainBlog/>
-            </div>*/}
+            </div>
         </>
     );
 };
