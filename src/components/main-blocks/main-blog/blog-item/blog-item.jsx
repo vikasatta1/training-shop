@@ -9,9 +9,9 @@ const BlogItem = ({ img, name, title, text, href }) => {
             <div className='description-block'>
                 <div className='item-title'>{title}</div>
                 <div className='item-text'>{text}</div>
-               {/* <Link to={href} className='more'>
+                <Link to={href} className='more'>
                     READ MORE
-                </Link>*/}
+                </Link>
             </div>
         </div>
     );
